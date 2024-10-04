@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body id="body">
+    <table border="1" id="table">
+        <tr>
+            <th>Alumno</th>
+            <th>Nota</th>
+        </tr>
+    </table>
+
+    <br>
+
+    <form border="1" id="form">
+        <legend>-- Introducir un alumno --</legend>
+        <br>
+        <label for="nombre">Nombre del alumno:</label>
+        <input id="nombre" type="text" required>
+        <br>
+        <label for="nota">Nota del alumno:</label>
+        <input id="nota" type="number" min="0" max="10" required>
+        <br><br>
+        <input type="submit" value="Añadir alumno">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
